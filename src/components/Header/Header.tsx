@@ -36,11 +36,11 @@ function Header() {
 							Skills
 						</a>
 					</li>}
-					{experience.view && <li className="nav-list" onClick={onClickMenu}>
+					{/* {experience.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#experience">
-							Experience
+							Toy Project
 						</a>
-					</li>}
+					</li>} */}
 					{openSourceProjects.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#opensource">
 							Open Source
@@ -52,8 +52,13 @@ function Header() {
 						</a>
 					</li>}
 					{achievements.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#achievement">
+						{/* <a href="#achievement">
 							Achievements
+						</a> */}
+					</li>}
+					{experience.view && <li className="nav-list" onClick={onClickMenu}>
+						<a href="#experience">
+							Toy Project
 						</a>
 					</li>}
 					{blogs.view && <li className="nav-list" onClick={onClickMenu}>

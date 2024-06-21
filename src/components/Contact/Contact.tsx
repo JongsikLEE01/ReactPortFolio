@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './Contact.css';
 import { contactInfo } from '../../portfolio';
@@ -15,6 +16,7 @@ function Contact() {
             <div className="inner">
                 
                 <div className="profile-img">
+                    {/* TODO : 이미지 변경 */}
                     <img src={require("../../assets/your photo.png")} alt="profile" />
                 </div>
                 <div className="wrapper-inner">
