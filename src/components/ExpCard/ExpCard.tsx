@@ -5,9 +5,8 @@ function ExpCard({ experience }: Props) {
     const Fade = require('react-reveal/Fade');
     return (
         <Fade duration={800} bottom>
-        <div className="expcard-main">
-            <div className="inner">
-                    
+        <a className="expcard-card" href={experience.url} target="_blank" rel="noopener noreferrer">
+            <div className="inner">    
                 <div className="expcard-role">
                     {experience.role}
                 </div>
@@ -17,9 +16,8 @@ function ExpCard({ experience }: Props) {
                 <div className="expcard-date">
                     {experience.date}
                 </div>
-
             </div>
-        </div>
+        </a>
         </Fade>
     );
 }
@@ -28,6 +26,7 @@ interface Props {
         role: string,
         company: string,
         date: string | number
+        url: string
     }
 }
 export default ExpCard;

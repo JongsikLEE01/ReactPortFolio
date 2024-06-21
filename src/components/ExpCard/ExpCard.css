@@ -1,24 +1,28 @@
-.expcard-main {
+.expcard-card {
+    background-color: #212223;
     border-radius: 10px;
-    box-shadow: 13px 13px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+    box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
     padding: 30px;
     margin-bottom: 30px;
-    background-color: #212223;
     color: #f1f2f3;
     font-size: 25px;
     text-align: center;
     transition: 0.3s ease-out;
+    text-decoration: none;
 }
-.expcard-main:hover {
+.expcard-card:hover {
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
+    background-color: #4a4b4c;
 }
-.expcard-main .expcard-role {
+
+.expcard-card .expcard-role {
     font-weight: 500;
 }
-.expcard-main .expcard-company {
+.expcard-card .expcard-company {
     margin-top: 30px;
 }
-.expcard-main .expcard-date {
+.expcard-card .expcard-date {
     font-size: 20px;
     margin-top: 30px;
     font-weight: 300;
@@ -26,13 +30,55 @@
 }
 
 @media screen and (max-width: 1380px) {
-    .expcard-main .expcard-role {
+    .expcard-card .expcard-role {
         font-size: 22px;
     }
-    .expcard-main .expcard-company {
+    .expcard-card .expcard-company {
         font-size: 19px;
     }
-    .expcard-main .expcard-date {
+    .expcard-card .expcard-date {
         font-size: 16px;
     }
 }
+
+/* .Exp-card {
+    background-color: #212223;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #1f1f1f;
+    transition: 0.3s ease-out;
+}
+.Exp-card:hover {
+    box-shadow: 0 4px 8px rgba(38,38,38,0.2);
+    background-color: #4a4b4c;
+}
+.Exp-card .Exp-card-title {
+    font-size: 25px;
+    color: #f1f2f3;
+    font-weight: 500;
+}
+.Exp-card .Exp-card-desc {
+    line-height: 1.4;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #c1c2c3;
+    font-weight: 300;
+    -webkit-box-orient: vertical;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+
+@media screen and (max-width: 1380px) {
+    .Exp-card .Exp-card-title {
+        font-size: 20px;
+    }
+    .Exp-card .Exp-card-desc {
+        font-size: 16px;
+    }
+} */

@@ -51,7 +51,6 @@ export const skills = {
 	view: true
 };
 
-// TODO : ToyProject 카드 만들기
 export const experience = {
 	// title: "Work Experience",
 	title: "Toy Project 🚀",
@@ -60,27 +59,26 @@ export const experience = {
 			role: "채팅 프로그램",
 			company: "WebSocket를 이용해 작성한 다중 채팅 프로그램입니다",
 			date: "사용 기술 : Java",
+			url: "https://github.com/JongsikLEE01/college_study/tree/master"
 		},
 		{
 			role: "Web Market",
 			company: "Bootstrap과 JSP의 이해를 위해 제작한 프로젝트입니다",
 			date: "사용 기술 : JSP/Servlet, Bootstrap",
+			url: "https://github.com/JongsikLEE01/Market"
 		},
 		{
 			role: "TodoList",
-			company: "FETCH, Hook, State를 이해하고 공부하기 위해서 제작한 Todo리스트입니다.",
+			company: "FETCH, Hook, State를 이해하고 공부하기 위해서 제작한 Todo리스트입니다",
 			date: "사용 기술 : React, SpringBoot",
+			url: "https://github.com/JongsikLEE01/ReactGithub"
 		},
 		{
 			role: "게시판 프로그램",
 			company: "axios와 파일 처리, 스타일 정의를 이해하고 공부하기 위해서 제작한 게시판 프로그램입니다",
 			date: "사용 기술 : React, SpringBoot",
+			url: "https://github.com/JongsikLEE01/ReactGithub"
 		},
-		// {
-		// 	role: "test",
-		// 	company: "test",
-		// 	date: "test",
-		// }
 	],
 	view: true
 }
