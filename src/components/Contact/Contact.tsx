@@ -16,8 +16,7 @@ function Contact() {
             <div className="inner">
                 
                 <div className="profile-img">
-                    {/* TODO : 이미지 변경 */}
-                    <img src={require("../../assets/your photo.png")} alt="profile" />
+                    <img src={require("../../assets/photo.jpg")} alt="profile" />
                 </div>
                 <div className="wrapper-inner">
                     <div className="contact-subtitle">

@@ -26,7 +26,6 @@ function Hello() {
 					</div>
 					<div className="wrapper-links">
 						<a href="#contact" id="about">Contact &gt;</a>
-						{/* TODO : 노션이랑 잇기 */}
 						<a href={greeting.resumeLink} id="resume" target="_blank" rel="noopener noreferrer">View Resume &gt;</a>
 					</div>
 				</div>
