@@ -2,7 +2,7 @@ import emoji from 'react-easy-emoji';
 
 export const greeting = {
 	username: 'JongSik',
-	title: "Hallo I'm JongSik !",
+	title: "Hello! I'm JongSik",
 	subTitle: "새로운 기술에 관심이 많고 팀원과 커뮤니케이션과 상호 피드백 및 리뷰를 좋아하는 개발자입니다.",
 	role: "풀스택 개발자를 꿈꾸고 있는 이종식입니다😁",
 	// TODO : 이력서 만들고 링크 걸기
