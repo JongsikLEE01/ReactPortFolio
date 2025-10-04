@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/ReactPortFolio/static/css/main.8a85129d.css",
-    "main.js": "/ReactPortFolio/static/js/main.a662761e.js",
+    "main.css": "/ReactPortFolio/static/css/main.de9cbba5.css",
+    "main.js": "/ReactPortFolio/static/js/main.ea44291a.js",
+    "static/media/kcl_logo.png": "/ReactPortFolio/static/media/kcl_logo.aaa9929f326384aa2e6c.png",
     "static/media/photo.jpg": "/ReactPortFolio/static/media/photo.c73e8d7440e9d554e143.jpg",
     "index.html": "/ReactPortFolio/index.html",
-    "main.8a85129d.css.map": "/ReactPortFolio/static/css/main.8a85129d.css.map",
-    "main.a662761e.js.map": "/ReactPortFolio/static/js/main.a662761e.js.map"
+    "main.de9cbba5.css.map": "/ReactPortFolio/static/css/main.de9cbba5.css.map",
+    "main.ea44291a.js.map": "/ReactPortFolio/static/js/main.ea44291a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a85129d.css",
-    "static/js/main.a662761e.js"
+    "static/css/main.de9cbba5.css",
+    "static/js/main.ea44291a.js"
   ]
 }
